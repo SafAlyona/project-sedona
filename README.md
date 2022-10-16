@@ -1,2 +1,2 @@
 # project-sedona
-First easy project from a web programming course I'm taking
+First project from a web programming course I'm taking
