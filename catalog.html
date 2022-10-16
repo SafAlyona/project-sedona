@@ -28,13 +28,12 @@
           <ul class="navigation-list navigation-user">
               <li class="navigation-item">
                   <a class="navigation-link" href="#">
-                    <img src="/images/header/search.png" alt="Поиск" width="20" height="20">
+                    <span class="visually-hidden">Поиск</span>
                   </a>
               </li>
               <li class="navigation-item">
                   <a class="navigation-link" href="#">
-                    <img src="/images/header/heart.png" alt="Избранное" width="20" height="20">
-                    <img src="/images/header/heart-number.png" alt="Количество товаров в избранном" width="20" height="20">
+                    <span class="visually-hidden">Избранное</span>
                   </a>
               </li>
               <li class="navigation-item">
@@ -48,8 +47,12 @@
       <section class="filter">
         <header class="filter-header">Гостиницы Седоны</header>
         <ul class="breadcrumbs">
-          <li class="breadcrumbs-item"><img src="" alt="главная страница"></li>
-          <li class="breadcrumbs-item">Гостиницы</li>
+          <li class="breadcrumbs-item-home">
+            <a href="index.html">
+              <span class="visually-hidden">Главная страница</span>
+            </a>
+          </li>
+          <li class="breadcrumbs-item-hotels breadcrumbs-current">Гостиницы</li>
         </ul>
         <form action="https://echo.htmlacademy.ru/" method="post" class="hotels-filter">
           <fieldset>
@@ -109,16 +112,10 @@
           <option value="expensive">Сначала дорогие</option>
           <option value="relevance">По релевантности</option>
         </select>
-        <ul class="layout-list">
-          <li class="layout-list-item">
-            <img src="/images/catalog-images/sorting/mode-1.svg" width="16" height="14">
-          </li>
-          <li class="layout-list-item">
-            <img src="/images/catalog-images/sorting/mode-2.svg" width="16" height="14">
-          </li>
-          <li class="layout-list-item">
-            <img src="/images/catalog-images/sorting/mode-3.svg" width="16" height="14">
-          </li>
+        <ul class="view">
+          <li class="view-item view-item-chess"></li>
+          <li class="view-item view-item-single"></li>
+          <li class="view-item view-item-list"></li>
         </ul>
       </section>
       <section class="card">
@@ -243,21 +240,23 @@
         </form>
       </section>
     </main>
+
+    <!-- footer -->
     <footer>
       <ul class="footer-socials-list">
           <li class="footer-socials-list-item">
               <a href="#">
-                <img src="/images/footer/social/social-vk.svg" alt="ВКонтакте" width="47" height="40">
+                <span class="visually-hidden">ВКонтакте</span>
               </a>
           </li>
           <li class="footer-socials-list-item">
               <a href="#">
-                <img src="/images/footer/social/social-telegram.svg" alt="Telegram" width="47" height="40">
+                <span class="visually-hidden">Telegram</span>
               </a>
           </li>
           <li class="footer-socials-list-item">
               <a href="#">
-                <img src="/images/footer/social/social-youtube.svg" alt="YouTube" width="47" height="40">
+                <span class="visually-hidden">YouTube</span>
               </a>
           </li>
       </ul>
